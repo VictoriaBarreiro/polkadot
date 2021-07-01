@@ -1,0 +1,13 @@
+%flexlogo{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+%flexnavl {
+    list-style: none;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    text-decoration: none;
+}

@@ -1,0 +1,11 @@
+@import "../base/_maps.scss";
+@import "../base/_variables.scss";
+@import "../base/extends";
+@import "../base/mixin";
+@import "../base/maps";
+
+
+    header{
+     
+        @include tittles(map-get($titlec, titulo0), none, 0px);
+    }

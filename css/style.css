@@ -1,0 +1,191 @@
+footer .logoPosition {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center; }
+
+footer .navList {
+  list-style: none;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  text-decoration: none; }
+
+header {
+  color: #441f05;
+  font-size: 80px;
+  font-family: 'Bebas Neue', cursive;
+  text-align: center; }
+
+footer .logoPosition {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center; }
+
+footer .navList {
+  list-style: none;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  text-decoration: none; }
+
+.sectionNew .titleNew {
+  color: darkgoldenrod;
+  font-size: 80px;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+  margin: 20px; }
+  @media only screen and (max-width: 600px) {
+    .sectionNew .titleNew {
+      font-size: 20px;
+      align-items: center;
+      margin: 50px;
+      padding: 25px;
+      width: 100%; } }
+  @media only screen and (min-width: 601px) and (max-width: 1024) {
+    .sectionNew .titleNew {
+      font-size: 30px;
+      align-items: center;
+      width: 100%; } }
+
+.sectionNew .imagesStyle {
+  margin: 10px 20px;
+  padding: 20px;
+  border-radius: 100px;
+  width: 700px;
+  transform: translate(35px, 65px); }
+
+.sectionSale .titleSale {
+  color: peru;
+  font-size: 80px;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: line-through;
+  letter-spacing: 15px; }
+  @media only screen and (max-width: 600px) {
+    .sectionSale .titleSale {
+      font-size: 20px;
+      align-items: center;
+      margin: 50px;
+      padding: 25px;
+      width: 100%; } }
+  @media only screen and (min-width: 601px) and (max-width: 1024) {
+    .sectionSale .titleSale {
+      font-size: 30px;
+      align-items: center;
+      width: 100%; } }
+
+.pagesSection .maps {
+  border-radius: 30px;
+  margin: 50px 100px; }
+
+.pagesSection h2 {
+  color: darkgoldenrod;
+  font-size: 80px;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+  margin: 20px; }
+
+.pagesSection .tableStyle {
+  padding: 50px;
+  margin: 10px auto;
+  background-color: #faebd7;
+  border: solid;
+  border-radius: 15px;
+  display: grid;
+  grid-area: "boxTitle1 boxTitle2 boxTitle3 boxTitle4 boxTitle5"  "boxTitle6 box1 box2 box3 box4"  "boxTitle7 box5 box6 box7 box8" "boxTitle8 box9 box10 box11 box12" "boxTitle9 box13 box14 box15 box16" "boxTitle10 box17 box18 box19 box20";
+  grid-template-columns: 3fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 2fr 2fr 2fr 2fr 2fr 2fr;
+  color: #441f05;
+  font-size: 20px;
+  font-family: 'Bebas Neue', cursive;
+  padding: 10px;
+  border: solid 1px; }
+
+.pagesSection ul {
+  list-style: none; }
+  .pagesSection ul .imagesStyle {
+    margin: 10px 20px;
+    padding: 15px;
+    border-radius: 50px;
+    width: 550px;
+    transform: translate(35px, 65px); }
+
+.pagesSection p {
+  color: #441f05;
+  font-size: 20px;
+  font-family: 'Bebas Neue', cursive;
+  background-color: #faebd7;
+  border-radius: 100px;
+  padding: 50px;
+  margin: 10px 20px; }
+  @media only screen and (max-width: 600px) {
+    .pagesSection p {
+      font-size: 12px; } }
+  @media only screen and (min-width: 601px) and (max-width: 1024) {
+    .pagesSection p {
+      font-size: 18px; } }
+
+footer .logoPosition {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center; }
+
+footer .navList {
+  list-style: none;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  text-decoration: none; }
+
+footer hr {
+  margin: 5px; }
+
+footer .logo {
+  margin: 50px 70px; }
+
+footer .styleLink {
+  text-decoration: none;
+  color: #441f05;
+  font-size: 20px;
+  font-family: 'Bebas Neue', cursive;
+  margin: 10px;
+  padding: 5px; }
+  @media only screen and (max-width: 600px) {
+    footer .styleLink {
+      width: 45%; } }
+  @media only screen and (min-width: 601px) and (max-width: 1024) {
+    footer .styleLink {
+      width: 75%; } }
+
+footer .logoPosition {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center; }
+
+footer .navList {
+  list-style: none;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  text-decoration: none; }
+
+body {
+  background-image: url(../image/fondo.jpg); }
+  body .spotify {
+    margin: 20px;
+    width: 250px;
+    height: 500px;
+    position: fixed;
+    left: 1000px;
+    border-radius: 10px; }
+    @media only screen and (min-width: 601px) and (max-width: 1024) {
+      body .spotify {
+        display: none; } }
+    @media only screen and (max-width: 600px) {
+      body .spotify {
+        display: none; } }

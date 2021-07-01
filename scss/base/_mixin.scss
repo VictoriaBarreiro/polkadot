@@ -1,0 +1,18 @@
+@import "../base/variables";
+@mixin titles ($color, $textdeco, $lttspace) {
+    color: $color;
+
+    font-size: $titlefontsize;
+
+    font-family: 'Bebas Neue', cursive;
+
+   
+
+    text-align: center;
+
+    text-decoration: $textdeco;
+
+    letter-spacing: $lttspace;
+
+    
+}
